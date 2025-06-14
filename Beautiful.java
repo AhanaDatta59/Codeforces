@@ -86,6 +86,7 @@ public class Beautiful {
                     rem -= use1;
                     long use2 = Math.min(mod01Rem, rem / 2);
 
+                    // total Gain = dJump + use1 + use2
                     long totalGain = dJump + use1 + use2;
                     if (totalGain > bestGain)
                         bestGain = totalGain;
